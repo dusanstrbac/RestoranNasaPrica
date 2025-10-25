@@ -64,7 +64,8 @@ const Navigacija = () => {
             className="md:hidden overflow-hidden bg-white shadow-inner"
           >
             <div className="flex flex-col space-y-4 p-4">
-              <a href="#jelovnik" className="text-gray-700 hover:text-orange-600 transition" onClick={() => setIsOpen(false)}>Jelovnik</a>
+              <a href="/" className="text-gray-700 hover:text-orange-600 transition" onClick={() => setIsOpen(false)}>Početna</a>
+              <a href="jelovnik" className="text-gray-700 hover:text-orange-600 transition" onClick={() => setIsOpen(false)}>Jelovnik</a>
               <a href="#o-nama" className="text-gray-700 hover:text-orange-600 transition" onClick={() => setIsOpen(false)}>O nama</a>
               <a href="#kontakt" className="text-gray-700 hover:text-orange-600 transition" onClick={() => setIsOpen(false)}>Kontakt</a>
             </div>
